@@ -1,0 +1,51 @@
+|| Hooks || 
+
+Used to track down the state and effect (lifecycle).
+those are Api of react component. 
+also used as named import.
+All are supposed to import from react.
+
+Here are some of the hooks 
+
+- UseContent
+- UseRef
+- UseState
+- UseMemo
+- UseEffect
+- UseReducer
+
+
+=> UseState
+
+    import {useState} from react     [ for importing the useState hook]
+
+    Syntax:   ||  const[ variable, setting the state of variable] = useState( val )  ||
+
+    e.g // 
+
+        -    const[Value, setValue] = useState(0);
+        -    const[Color, setColor] = useState("Red");
+
+    for changing the value later 
+    {Note: you cant change values directly like a variable color ="red" not allowed }
+
+    syntax: || Setting the State (val) ||
+
+    e.g //
+    
+        -   setVal(10)
+        -   setColor("blue")
+
+
+    for reading the value 
+
+    syntax: || {val} ||
+
+    e.g //
+
+        - {color}
+        - {value}
+
+
+
+    
